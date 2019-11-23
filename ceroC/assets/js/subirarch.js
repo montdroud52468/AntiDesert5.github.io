@@ -11,6 +11,7 @@ function uploadFile() {
        contentType: false,
        success: function(response) {
            // .. hacer algo...
+           print (funciono);
        },
        error: function(jqXHR, textStatus, errorMessage) {
            console.log(errorMessage); // Opcional
